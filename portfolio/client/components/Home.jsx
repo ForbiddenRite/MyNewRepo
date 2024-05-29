@@ -1,11 +1,13 @@
 /* Home.jsx, Che Shing Winson Li, 301330329, 2024-05-26 */
+import { Link } from 'react-router-dom';
+
 export default function Home() {
     return (
         <>
             <div class="home">
                 <div class="title">Welcome to My Portfolio</div>
                 <div class="sub-title">Discover my work and explore my journey as a developer.</div>
-                <a href="/about" class="cta">Learn More</a>
+                <Link to="/about" class="cta">Learn More</Link>
             </div>
             <div class="mission">
                 <h2>My Mission</h2>
